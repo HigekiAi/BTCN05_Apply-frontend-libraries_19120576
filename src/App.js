@@ -9,16 +9,24 @@ function App() {
       <nav>
         <ul className="nav-ul">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/BTCN05_Apply-frontend-libraries_19120576/">Home</Link>
           </li>
           <li>
-            <Link to="/sign-up">Sign Up</Link>
+            <Link to="/BTCN05_Apply-frontend-libraries_19120576/sign-up">
+              Sign Up
+            </Link>
           </li>
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="/sign-up" element={<SignUpPage />}></Route>
+        <Route
+          path="/BTCN05_Apply-frontend-libraries_19120576/"
+          element={<HomePage />}
+        ></Route>
+        <Route
+          path="/BTCN05_Apply-frontend-libraries_19120576/sign-up"
+          element={<SignUpPage />}
+        ></Route>
       </Routes>
     </div>
   );
